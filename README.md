@@ -6,18 +6,19 @@ This repository contains a project for predicting MLB playoff teams based on reg
 
 ### Repository Structure
 
+```plaintext
 baseball-playoff-prediction/
-│── data/
-│   └── mlb_batting_statistics.csv    # Scraped MLB team batting statistics dataset
-│── notebooks/
-│   └── playoff_prediction.ipynb      # Jupyter Notebook for data analysis, visualization, and modeling
-│── src/
-│   ├── scrape_team_batting.py        # Functions to scrape baseball batting data
-│   ├── save_team_batting.py          # Runs scraping functions and saves data
-│── .gitignore                        # Ignore files
-│── requirements.txt                  # List of project dependencies
-│── README.md                         # Project documentation
-
+├── data
+│   └── mlb_batting_statistics.csv 	# Scraped MLB team batting statistics dataset
+├── notebooks
+│   └── playoff_prediction.ipynb	# Jupyter Notebook for data analysis, visualization and modeling
+└── src
+    ├── save_team_batting.py		# Functions to scrape baseball batting data
+    └── scrape_team_batting.py		# Runs scraping functions and saves data
+├── .gitignore				# Ignore files
+├── requirements.txt			# List of project dependencies
+├── README.md				# Project documentation
+```
 ### License
 
 This project is licensed under the MIT License.
